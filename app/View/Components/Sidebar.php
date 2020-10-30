@@ -7,15 +7,17 @@ use Illuminate\View\Component;
 class Sidebar extends Component
 {
     public $title;
+    public $email;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($title)
+    public function __construct($title, $email)
     {
         //
         $this->title = $title;
+        $this->email = $email;
     }
 
     /**

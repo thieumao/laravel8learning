@@ -21,6 +21,9 @@
         </style>
     </head>
     <body class="antialiased">
-        <x-sidebar title="Learning Laravel 8"></x-sidebar>
+        @php
+            $email = 'thieumao@gmail.com';
+        @endphp
+        <x-sidebar title="Learning Laravel 8" :email="$email"></x-sidebar>
     </body>
 </html>
