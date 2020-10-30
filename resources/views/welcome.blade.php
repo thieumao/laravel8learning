@@ -24,6 +24,6 @@
         @php
             $email = 'thieumao@gmail.com';
         @endphp
-        <x-sidebar title="Learning Laravel 8" :email="$email"></x-sidebar>
+        <x-sidebar title="Learning Laravel 8" :email="$email" class="user-list" id="user-id"></x-sidebar>
     </body>
 </html>
