@@ -29,4 +29,14 @@ class Sidebar extends Component
     {
         return view('components.sidebar');
     }
+
+    public function users()
+    {
+        return [
+            'Nguyễn Văn A', 
+            'Nguyễn Văn B', 
+            'Nguyễn Thị A',
+            'Nguyễn Thị B'
+        ];
+    }
 }
