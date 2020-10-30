@@ -80,3 +80,6 @@ php artisan make:controller NameController --resource
 
 # Make new component
 php artisan make:component Sidebar
+
+# Learn here
+https://youtu.be/DAG3V7z4QEo?list=PLh5At4osX60LuzjTR3NWhAXiFGVRogFoe&t=1146
