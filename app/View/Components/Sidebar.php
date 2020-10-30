@@ -30,13 +30,14 @@ class Sidebar extends Component
         return view('components.sidebar');
     }
 
-    public function users()
+    public function users($user)
     {
         return [
             'Nguyễn Văn A', 
             'Nguyễn Văn B', 
             'Nguyễn Thị A',
-            'Nguyễn Thị B'
+            'Nguyễn Thị B',
+            $user
         ];
     }
 }
